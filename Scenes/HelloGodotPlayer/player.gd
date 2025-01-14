@@ -10,3 +10,23 @@ func _physics_process(delta: float) -> void:
 	
 	# also inherited from CharacterBody2D
 	move_and_slide()
+	
+	# flip sprite horizontally
+	if velocity.x < 0:
+		$AnimatedSprite2D.flip_h = true
+	elif velocity.x > 0:
+		$AnimatedSprite2D.flip_h = false
+		
+	# play jump animation if moving up
+	if velocity.y < 0:
+		$AnimatedSprite2D.play("jump")
+	elif velocity.y > 0:
+		$AnimatedSprite2D.play("fall")
+	elif velocity.x != 0:
+		$AnimatedSprite2D.play("run")
+	else:
+		$AnimatedSprite2D.play("idle")
+		
+	
+	
+	
