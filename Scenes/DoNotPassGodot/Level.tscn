@@ -1,13 +1,13 @@
 [gd_scene load_steps=11 format=4 uid="uid://eq8ffank7aox"]
 
-[ext_resource type="Script" path="res://Scenes/HelloGodotPlayer/level.gd" id="1_7ybe0"]
+[ext_resource type="Script" path="res://Scenes/DoNotPassGodot/level.gd" id="1_7ybe0"]
 [ext_resource type="Texture2D" uid="uid://nc8nl3dsp17i" path="res://Assets/Art/Pixel Adventure 1/Background/Brown.png" id="1_deu8e"]
 [ext_resource type="Texture2D" uid="uid://b2fg52nxe1owk" path="res://Assets/Art/Pixel Adventure 1/Terrain/Terrain (16x16).png" id="1_ls6c7"]
-[ext_resource type="PackedScene" uid="uid://bjvslx021rhc" path="res://Scenes/HelloGodotPlayer/player.tscn" id="2_8rxf3"]
+[ext_resource type="PackedScene" uid="uid://bjvslx021rhc" path="res://Scenes/DoNotPassGodot/player.tscn" id="2_8rxf3"]
 [ext_resource type="AudioStream" uid="uid://4qu5ndlkbt1u" path="res://Assets/Audio/jdwasabi_Sounds/Jump 1.wav" id="3_u0125"]
 [ext_resource type="AudioStream" uid="uid://dgrjopmj8vvrn" path="res://Assets/Audio/Casual Game Vol 2/Track 2 (Party Tonight).wav" id="6_27sda"]
-[ext_resource type="PackedScene" uid="uid://cgq6b7y18addt" path="res://Scenes/HelloGodotPlayer/trampoline.tscn" id="7_ogeab"]
-[ext_resource type="PackedScene" uid="uid://ds478rhu63m21" path="res://Scenes/HelloGodotPlayer/mushroom_enemy.tscn" id="8_2erp3"]
+[ext_resource type="PackedScene" uid="uid://cgq6b7y18addt" path="res://Scenes/DoNotPassGodot/trampoline.tscn" id="7_ogeab"]
+[ext_resource type="PackedScene" uid="uid://ds478rhu63m21" path="res://Scenes/DoNotPassGodot/mushroom_enemy.tscn" id="8_2erp3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tjrck"]
 texture = ExtResource("1_ls6c7")

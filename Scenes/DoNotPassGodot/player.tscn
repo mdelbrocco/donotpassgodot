@@ -1,6 +1,6 @@
 [gd_scene load_steps=33 format=3 uid="uid://bjvslx021rhc"]
 
-[ext_resource type="Script" path="res://Scenes/HelloGodotPlayer/player.gd" id="1_7mb32"]
+[ext_resource type="Script" path="res://Scenes/DoNotPassGodot/player.gd" id="1_7mb32"]
 [ext_resource type="Texture2D" uid="uid://d1sctmlp7fsgn" path="res://Assets/Art/Pixel Adventure 1/Main Characters/Ninja Frog/Fall (32x32).png" id="3_bvlev"]
 [ext_resource type="Texture2D" uid="uid://c1rb5woqncgpf" path="res://Assets/Art/Pixel Adventure 1/Main Characters/Ninja Frog/Idle (32x32).png" id="4_k2g5d"]
 [ext_resource type="Texture2D" uid="uid://dcr2v401ih43i" path="res://Assets/Art/Pixel Adventure 1/Main Characters/Ninja Frog/Jump (32x32).png" id="5_xto0b"]
