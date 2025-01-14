@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://bjvslx021rhc"]
+
+[ext_resource type="Script" path="res://Scenes/HelloGodotPlayer/player.gd" id="1_7mb32"]
+[ext_resource type="Texture2D" uid="uid://c6q4e3yrfoadk" path="res://icon.svg" id="1_huamm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_68mvm"]
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_7mb32")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_huamm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+shape = SubResource("RectangleShape2D_68mvm")
