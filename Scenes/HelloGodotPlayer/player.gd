@@ -16,7 +16,7 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite2D.flip_h = true
 	elif velocity.x > 0:
 		$AnimatedSprite2D.flip_h = false
-		
+	
 	# play jump animation if moving up
 	if velocity.y < 0:
 		$AnimatedSprite2D.play("jump")
@@ -26,7 +26,3 @@ func _physics_process(delta: float) -> void:
 		$AnimatedSprite2D.play("run")
 	else:
 		$AnimatedSprite2D.play("idle")
-		
-	
-	
-	
