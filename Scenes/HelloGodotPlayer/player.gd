@@ -1,15 +1,14 @@
 extends CharacterBody2D
 
 const BASE_MOVE_SPEED := 250
-const GRAVITY := 35
-const JUMP_FORCE := GRAVITY * 14
+const JUMP_FORCE := Globals.GRAVITY * 14
 
 func _physics_process(delta: float) -> void:
 	var input_vector := Input.get_axis("left", "right")
 	
 	# velocity is inherited from CharacterBody2D
 	velocity.x = input_vector * BASE_MOVE_SPEED
-	velocity.y += GRAVITY
+	velocity.y += Globals.GRAVITY
 	
 	# also inherited from CharacterBody2D
 	move_and_slide()
